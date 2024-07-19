@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +162,7 @@
         </div>
     </nav>
 
-<div class="row pb-5 justify-content-center filerow">
+<div class="row d-none pb-5 justify-content-center filerow">
             <div class="col-xxl-4 col-xl-6 col-12 text-center">
                 <div class="input-group justify-content-center">
                     <div class="col mx-1">
@@ -483,7 +483,7 @@
             var pathSet;
             var usrfileorg;
             
-             /* $.ajax({
+              $.ajax({
                     //type: "GET",
                     url: "./data/Pathogens.csv",
                     dataType: "text",
@@ -492,9 +492,9 @@
                                    loadPath();
                WritePath();
                     }
-                    });*/
+                    });
         
-
+/*
            $('#csvfileorg').change(function FileSelect(evt) {                
                 $('#csvfileorglbl').removeClass('is-invalid');
                 var file = evt.target.files[0];
@@ -504,7 +504,7 @@
                loadPath();
                
             });    
-
+*/
             $('.tabnav').click(function () {
                 if (this.id == 'bCS') {
                     $('#CS').click();
